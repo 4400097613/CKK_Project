@@ -33,4 +33,4 @@ namespace CKK.Logic.Models
         }
     }
 }
-}
+
