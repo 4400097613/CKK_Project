@@ -35,8 +35,7 @@ namespace CKK.Logic.Models
         public decimal GetTotal()
         {
 
-            decimal v = GetPrice();
-            return Quantity * v;
+            return Quantity * GetPrice();
         }
     }
 }
