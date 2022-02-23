@@ -1,35 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace CKK.Logic.Models
+
+
+
+
+namespace CKK.Logic.Models 
 {
    public class StoreItem
     {
-        private Product _product;
-        private int _quantity;
+        private Product Product;
+        private int Quantity;
         public StoreItem(Product product, int quantity)
         {
-            _product = product;
-            _quantity = quantity;
+            Product = product;
+            Quantity = quantity;
         }
         public int GetQuantity()
         {
-            return _quantity;
+            return Quantity;
         }
         public void SetQuantity(int quantity)
         {
-            _quantity = quantity;
+            Quantity = quantity;
         }
         public Product GetProduct()
         {
-            return _product;
+            return Product;
         }
         public void SetProduct(Product product)
         {
-            _product = product;
+            Product = product;
         }
     }
 }
