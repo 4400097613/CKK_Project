@@ -7,7 +7,7 @@
 namespace CKK.Logic.Models
 {
   
-    public class ShoppingCartItem
+    public class ShoppingCartItem : Product
     {
         private Product _product;
         private int _quantity;
