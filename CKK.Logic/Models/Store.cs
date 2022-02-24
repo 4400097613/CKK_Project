@@ -10,6 +10,9 @@ namespace CKK.Logic.Models
     {
         private int _id;
         private string _name;
+
+    
+
         private Product _product1;
         private Product _product2;
         private Product _product3;
